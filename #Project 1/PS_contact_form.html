@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="CSS_main.css"  > 
+            <title> TCR Formulier</title>
+            <nav>
+                <ul class="nav_li">
+                    <li> <a href="P_homepage.html">Homepage</a></li>
+                    <li> <a href="P_introductie_student.html">Introductie Student</a></li>
+                    <li> <a href="P_ouderavond.html">Ouderavond</a> </li>
+                    <li> <a href="P_opleidingwijzer.html">Opleidingswijzer</a></li>
+                    <li> <a href="P_canvas.html">Canvas</a></li>
+                </ul>
+
+             <div class="nav_alles">
+                    <button class="nav_button"> Software </button>
+                <ul class="nav_ps">
+                    <li> <a href="PS_software_programeertalen.html">Programeertalen</a></li>
+                    <li> <a href="PS_software_softwares.html">Softwares</a></li>
+                </ul>
+             </div>
+                
+             <div class="nav_alles">
+                   <button class="nav_button">Eduarte</button>
+                <ul class="nav_ps">
+                    <li> <a href="PS_eduarte_cijfers.html">Cijfers</a></li>
+                    <li> <a href="PS_eduarte_rooster.html">Rooster</a></li>
+                    <li> <a href="PS_eduarte_aanwezigheid.html">Aanwezigheid</a></li>
+                </ul>
+             </div>
+ 
+             <div class="nav_alles"> 
+                    <button class="nav_button">Extra</button>
+                <ul class="nav_ps">
+                     <li> <a href="PS_extra_examenplan.html">Examenplan</a></li>
+                     <li> <a href="PS_extra_begeleiding.html">Begeleiding</a></li>
+                     <li> <a href="PS_extra_bsa.html">BSA</a></li>
+                </ul>
+             </div>
+
+             <div class="nav_alles">
+                    <button class="nav_button">Contact</button>
+                <ul class="nav_ps">
+                     <li> <a href="PS_contact_locatiegids.html">Locatiegids</a></li>
+                     <li> <a href="PS_contact_informatie.html">Informatie</a></li>
+                     <Li> <a href="PS_contact_form.html">Formulier</a></Li>
+                </ul>
+             </div>
+
+            </nav>
+        
+        </head>
+        <header>
+            <h1> Formulier</h1>
+            <p>
+                Wilt u ons een vraag stellen of commentaar geven? 
+                <br> 
+                Vul dan de formulier hieronder in. 
+            </p>
+        </header>
+        <body>
+            <article class="achtergrond"> 
+               <h2> Formulier</h2>
+               <div class="links"> 
+               <form action="Form_submit.html" target="_blank"  > 
+                     <Label for="First_name">Voornaam: </Label>
+                     <br> 
+                         <input type="text" id="First_name" required>
+                     <br> <br>
+                         <label for="Last_name">Achternaam: </label>
+                     <br>
+                         <input type="text" id="last_name"  required >
+                     <br> <br>
+                         <label for="vraag">Vraag of commentaar </label>
+                     <br>
+                         <textarea name="text" rows="13" cols="40" required></textarea>
+                     <br> <br>
+                         <label for="checklijst">Wie vult de fomulier in? </label>
+                     <br> 
+                             <input type="radio" id="student"> <label for="student"> Student </label>
+                     <br>
+                             <input type="radio" id="ouder/verzorger"> <label for="ouder/verzorger"> Ouder/Verzorger van student </label>
+                     <br>
+                             <input type="radio" id="anders">  <label for="anders"> Anders </label>
+                    <br> <br>
+                            <label for="email"> Email</label>
+                    <br>
+                            <input type="email" id="email" name="email" required>
+                    <br> <br>
+                             <input type="submit" value="Verzendt">
+    
+                  </form>
+               <img src="IMG_formulier.png" alt="" height="450" width="600"> 
+            </div>
+            </article>
+
+            <footer>
+                <p>
+                    Wilt u in contact komen met techniek college rotterdam? U kunt dan <a href="PS_contact_informatie.html"> Hier klikken </a>  
+                </p>
+                <img src="IMG_tcr_logo_donker.png" alt="Techniek college rotterdam logo" height="120" width="350"> 
+           </footer>
+        </body>
+    </html>
